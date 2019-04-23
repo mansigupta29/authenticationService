@@ -25,8 +25,9 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 
         // hard coding the users. All passwords must be encoded.
         final List<AppUser> users = Arrays.asList(
-                new AppUser("omar", encoder.encode("12345"), "USER"),
-                new AppUser( "admin", encoder.encode("12345"), "USER")
+                new AppUser("mansi29", encoder.encode("12345"), "USER"),
+                new AppUser( "abhinav12", encoder.encode("12345"), "USER"),
+            new AppUser( "neha30", encoder.encode("12345"), "USER")
         );
 
 
